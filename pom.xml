@@ -122,6 +122,11 @@
                 <threshold>Low</threshold>
                 <!-- Produces XML report -->
                 <xmlOutput>true</xmlOutput>
+                
+				<findbugsXmlOutput>true</findbugsXmlOutput> 
+				
+      			<findbugsXmlWithMessages>true</findbugsXmlWithMessages>
+     			 <xmlOutput>true</xmlOutput> 
                 <!-- Configures the directory in which the XML report is created -->
                 <findbugsXmlOutputDirectory>${project.build.directory}/findbugs</findbugsXmlOutputDirectory>
             </configuration>
